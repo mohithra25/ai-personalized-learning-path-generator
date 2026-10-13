@@ -2,7 +2,7 @@ print("AI-Based Personalized Learning Path Generator")
 print("---------------------------------------------")
 
 name = input("Enter your name: ")
-skill = input("Choose a skill (Python/Java/Web Development): ")
+skill = input("Choose a skill (Python/Java/C/C++/SQL/JavaScript/Web Development): ")
 level = input("Enter your level (Beginner/Intermediate): ")
 
 print("\n--- Your Personalized Learning Path ---")
@@ -26,6 +26,38 @@ elif skill.lower() == "java":
         "Build a Java mini project"
     ]
 
+elif skill.lower() in ["c", "c programming"]:
+    roadmap = [
+        "Learn C syntax and data types",
+        "Understand conditions and loops",
+        "Learn arrays and functions",
+        "Build a C mini project"
+    ]
+
+elif skill.lower() in ["c++", "cpp"]:
+    roadmap = [
+        "Learn C++ syntax",
+        "Understand classes and objects",
+        "Practice OOP concepts",
+        "Build a C++ mini project"
+    ]
+
+elif skill.lower() == "sql":
+    roadmap = [
+        "Learn database basics",
+        "Practice SELECT and WHERE",
+        "Learn INSERT, UPDATE and DELETE",
+        "Build a small database project"
+    ]
+
+elif skill.lower() in ["javascript", "js"]:
+    roadmap = [
+        "Learn JavaScript basics",
+        "Understand variables and functions",
+        "Practice DOM manipulation",
+        "Build an interactive webpage"
+    ]
+
 elif skill.lower() == "web development":
     roadmap = [
         "Learn HTML",
@@ -46,4 +78,4 @@ elif roadmap:
         print("-", step)
 
 else:
-    print("\nSkill not available. Please choose Python, Java, or Web Development.")
+    print("\nSkill not available. Please choose one of the supported skills.")
