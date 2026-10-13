@@ -54,5 +54,9 @@ Currently in the planning stage. Development will begin step by step as part of 
 - Create a weekly study plan
 - Add an AI-based recommendation system
 
-  ## Author
-  Student Developer
+## Supports seven skills:
+Python, Java, C, C++, SQL, JavaScript, and Web Development
+- Provides separate learning roadmaps for beginner and intermediate levels.
+
+## Author
+Student Developer
