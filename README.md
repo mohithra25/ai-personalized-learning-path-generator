@@ -1,5 +1,6 @@
 # ai-personalized-learning-path-generator
 An AI-based project that generates personalized learning paths based on student's skills, goals, and learning progress
+
 🎯 Project Objective
 
 The main objective of this project is to help students identify what they need to learn and generate a personalized learning path based on their skills, learning goals, and progress.
@@ -26,6 +27,19 @@ Currently in the planning stage. Development will begin step by step as part of 
 - Identifies the student's current skill level
 - Generates a learning roadmap based on the selected level
 
+  ## Technologies Used
+  python
+  GitHub
+
+  ## Supported Skills
+  1.python
+  2.Java
+  3.C programming
+  4.C++
+  5.SQL
+  6.JavaScript
+  7.Web Development
+
 ## How It Works
 
 1. The user enters their name.
@@ -39,3 +53,6 @@ Currently in the planning stage. Development will begin step by step as part of 
 - Recommend learning resources
 - Create a weekly study plan
 - Add an AI-based recommendation system
+
+  ## Author
+  Student Developer
